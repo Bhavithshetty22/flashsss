@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Dashboard - Udemy Style</title>
+    <link rel="stylesheet" href="course.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Facundo:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=person" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <i class='bx bxl-react logo' ></i>
+                </span>
+                <div class="text header-text">
+                    <span class="name">vstudy</span>
+                </div>
+            </div>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="./Main.html">
+                            <i class='bx bxs-dashboard icon'></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./course.html">
+                            <i class='bx bxs-book-open icon'></i>
+                            <span class="text nav-text">Courses</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./pomo.html">
+                            <i class='bx bxs-time-five icon' ></i>
+                            <span class="text nav-text">Pomodaro</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./task.html">
+                            <i class='bx bx-notepad icon'></i>
+                            <span class="text nav-text">ToDoList</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-square icon'></i>
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon'></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark Mode</span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                <li class="profile">
+                    <a>
+                        <div class="circle-profile">
+                        <img src="./profilepic.jpeg">
+                        </div>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="uppercontent">
+            <div class="info">
+                <div class="line1">
+                    <h1 class="welcome">Welcome back, Bhavith</h1>
+                    <img class="wave " src="./wave.png" alt="Wave Image">
+                </div>
+                <p> You've learned <strong>80%</strong> of your goal this week!</br>Keep it up and improve your progress!</p>  
+            </div>
+            <img  class="course" src="./course.png">
+        </div>
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <h2>My Progress</h2>
+                <div class="month-navigation">
+                    <button id="prevMonth">&lt;</button>
+                    <span id="currentMonth"></span>
+                    <button id="nextMonth">&gt;</button>
+                </div>
+            </div>
+            <div class="calendar">
+                <div class="days-header">
+                    <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+                </div>
+                <div id="calendar-days" class="days-grid"></div>
+            </div>
+            <div class="legend">
+                <span>Low</span>
+                <div class="legend-colors">
+                    <div class="low"></div>
+                    <div class="medium"></div>
+                    <div class="high"></div>
+                </div>
+                <span>Full</span>
+            </div>
+        </div>
+        <h1 class="courses">Your Courses</h1>
+        <div class="coursebox">
+            <a href="./mathsmain.html" class="box-link">
+            <div class="box">
+                <div class="image-box1">
+                    <img src="./mathematics.jfif">
+                </div>
+                <h1 class="mathematics">Mathematics</h1>
+                <div class="progressbar">
+                    <div class="progress">
+                        <div class="progress-done" data-done="35">
+                        </div>
+                        <div class="progress-info">
+                            <p>Completed <strong>35%</strong></p>
+                            <p>Days <strong>6/34</strong></p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </a>
+        <a href="./mathsmain.html" class="box-link">
+            <div class="box">
+                <div class="image-box1">
+                    <img src="./phys.jfif">
+                </div>
+                <h1 class="mathematics">Physics</h1>
+                <div class="progressbar">
+                    <div class="progress">
+                        <div class="progress-done" data-done="65"></div>
+                        <div class="progress-info">
+                            <p>Completed <strong>65%</strong></p>
+                            <p>Days <strong>6/34</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </a>
+            <a href="./chemmain.html" class="box-link">
+            <div class="box">
+                <div class="image-box1">
+                    <img src="./chemistry.jfif">
+                </div>
+                <h1 class="mathematics">Chemistry</h1>
+                <div class="progressbar">
+                    <div class="progress">
+                        <div class="progress-done" data-done="20">
+                        </div>
+                        <div class="progress-info">
+                            <p>Completed <strong>20%</strong></p>
+                            <p>Days <strong>6/34</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </a>
+            <a href="./mathsmain.html" class="box-link">
+            <div class="box">
+                <div class="image-box1">
+                    <img src="./quiz.jfif">
+                </div>
+                <h1 class="mathematics">Practice Questions and Quiz</h1>
+                <div class="progressbar">
+                    <div class="progress">
+                        <div class="progress-done" data-done="55">
+                        </div>
+                        <div class="progress-info">
+                            <p>Completed <strong>55%</strong></p>
+                            <p>Days <strong>6/34</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="flash-card">
+            <div class="flash-img">
+                <img src="./flashpmg.png">
+            </div>
+            <div class="info-flash">
+              <h2 class="flash-time">Finding it hard to memorize</h2>
+              <div class="flashtext">
+                <h1 class="flash-quiz">Make FlashCard</h1>
+              </div>
+              <button class="button2" onclick="window.location.href='./flash.html'">Enter now</button>
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>vstudy</h2>
+                <p>Your personalized study companion for productivity and efficiency.</p>
+            </div>
+    
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">To-Do List</a></li>
+                    <li><a href="#">Pomodoro Timer</a></li>
+                    <li><a href="#">Study Analytics</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: support@vstudy.com</p>
+                <p>Phone: 7970334125</p>
+            </div>
+    
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2025 VStudy | All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="course.js"></script>
+    
+    
+</body>
+</html>
