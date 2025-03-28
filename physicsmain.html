@@ -1,0 +1,2912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Dashboard - Udemy Style</title>
+    <link rel="stylesheet" href="mathsmain.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Facundo:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=person" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <i class='bx bxl-react logo' ></i>
+                </span>
+                <div class="text header-text">
+                    <span class="name">vstudy</span>
+                </div>
+            </div>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="./Main.html">
+                            <i class='bx bxs-dashboard icon'></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-book-open icon'></i>
+                            <span class="text nav-text">Courses</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-time-five icon' ></i>
+                            <span class="text nav-text">Pomodaro</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-notepad icon'></i>
+                            <span class="text nav-text">ToDoList</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-square icon'></i>
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon'></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark Mode</span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                <li class="profile">
+                    <a>
+                        <div class="circle-profile">
+                        <img src="./profilepic.jpeg">
+                        </div>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <main>
+      <div class="subject">
+        <div class="subjectname">
+          <h1>Physics</h1>
+          <img src="./pully.png" alt="Mathematics Icon">
+        </div>
+        <p class="info-sub">Study physics for 1.2 hours daily to build a strong conceptual foundation.</p>
+      </div>
+    
+      <div class="container">
+        <div class="course-curriculum">
+        
+          <!-- Section 1: Sets -->
+          <div class="section close">
+            <div class="section-header" data-section="1">
+              <div class="subject-flex">
+                <h3>Section 1: Units and Measurements</h3>
+                <i class='bx bx-chevron-down toggle'></i>
+              </div>
+              <p class="section-info"><span class="progress">16/16</span> | 1hr 12min</p>
+            </div>
+            <div class="section-content" id="section-1">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+                    <label for="lesson-1">Day 1 - Fundamental and Derived Units</label>
+                  </div>
+                  <span class="duration">2min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                      <div class="cyber-checkbox__box">
+                        <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                          <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                        </svg>
+                      </div>
+                      <div class="cyber-checkbox__effects">
+                      <div class="cyber-checkbox__spark"></div>
+                      <div class="cyber-checkbox__spark"></div>
+                      <div class="cyber-checkbox__spark"></div>
+                      <div class="cyber-checkbox__spark"></div>
+                    </div>
+                      <div class="cyber-checkbox__particles">
+                      <div class="particle-1"></div>
+                      <div class="particle-2"></div>
+                      <div class="particle-3"></div>
+                      <div class="particle-4"></div>
+                      <div class="particle-5"></div>
+                      <div class="particle-6"></div>
+                      <div class="particle-7"></div>
+                      <div class="particle-8"></div>
+                      </div>
+                      </span>
+                      </label>
+
+                    <label for="lesson-2">Day 2 - SI Units and Conventions</label>
+                  </div>
+                  <span class="duration">19min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+                    <label for="lesson-3">Day 3 - Measurement Errors and Significant Figures</label>
+                  </div>
+                  <span class="duration">13min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-4">Day 4 - Dimensional Analysis and Its Applications</label>
+                  </div>
+                  <span class="duration">6min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-5">Weekly Quiz 1 : Units and Measurements
+                    </label>
+                  </div>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Section 2: Relations and Functions -->
+          <div class="section">
+            <div class="section-header" data-section="2">
+              <div class="subject-flex">
+                <h3>Section 2: Mathematical Methods</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <p class="section-info"><span class="progress">10/10</span> | 55min</p>
+            </div>
+            <div class="section-content" id="section-2">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-6">Day 1 - Scalars and Vectors</label>
+                  </div>
+                  <span class="duration">2min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-7">Day 2 - Coordinate Geometry Basics</label>
+                  </div>
+                  <span class="duration">19min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-8">Day 3 - Trigonometry for Physics</label>
+                  </div>
+                  <span class="duration">13min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-9">Day 4 - Differentiation and Integration Applications</label>
+                  </div>
+                  <span class="duration">6min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-11">Weekly Quiz 2 : Mathematical Methods</label>
+                  </div>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Section 3: Trigonometry Definition -->
+          <div class="section">
+            <div class="section-header" data-section="3">
+              <div class="subject-flex">
+                <h3>Section 3: Motion in a Plane </h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <p class="section-info"><span class="progress">12/12</span> | 1hr 15min</p>
+            </div>
+            <div class="section-content" id="section-3">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-12">Day 1 - Motion in One, Two, and Three Dimensions</label>
+                  </div>
+                  <span class="duration">2min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-13">Day 2 - Projectile Motion</label>
+                  </div>
+                  <span class="duration">19min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-14">Day 3 - Relative Velocity</label>
+                  </div>
+                  <span class="duration">13min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-15">Day 4 - Uniform Circular Motion</label>
+                  </div>
+                  <span class="duration">6min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-16">Weekly Quiz 3 : Motion in a Plane</label>
+                  </div>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Section 4: Principle of Mathematical Induction -->
+          <div class="section">
+            <div class="section-header" data-section="4">
+              <div class="subject-flex">
+                <h3>Section 4: Laws of Motion</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <p class="section-info"><span class="progress">8/8</span> | 1hr 4min</p>
+            </div>
+            <div class="section-content" id="section-4">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-17">Day 1 - Newton’s Laws of Motion</label>
+                  </div>
+                  <span class="duration">5min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-18">Day 2 - Free Body Diagrams</label>
+                  </div>
+                  <span class="duration">10min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-19">Day 3 - Friction and Its Types</label>
+                  </div>
+                  <span class="duration">15min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-20">Day 4 - Dynamics of Circular Motion</label>
+                  </div>
+                  <span class="duration">8min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-21">Weekly Quiz 4 : Laws of Motion</label>
+                  </div>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Section 5: Complex Numbers and Quadratic Equations -->
+          <div class="section">
+            <div class="section-header" data-section="5">
+              <div class="subject-flex">
+                <h3>Section 5: Gravitation</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <p class="section-info"><span class="progress">7/7</span> | 41min</p>
+            </div>
+            <div class="section-content" id="section-5">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-22">Day 1 - Newton’s Law of Universal Gravitation</label>
+                  </div>
+                  <span class="duration">10min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-23">Day 2 - Acceleration Due to Gravity and Its Variation</label>
+                  </div>
+                  <span class="duration">15min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-24">Day 3 - Kepler’s Laws of Planetary Motion</label>
+                  </div>
+                  <span class="duration">12min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-25">Day 4 - Escape Velocity and Orbital Velocity</label>
+                  </div>
+                  <span class="duration">7min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-27">Weekly Quiz 5 : Gravitation</label>
+                  </div>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-header" data-section="6">
+              <div class="subject-flex">
+                <h3>Section 6: Mechanical Properties of Solids</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <p class="section-info"><span class="progress">7/7</span> | 41min</p>
+            </div>
+            <div class="section-content" id="section-6">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-22">Day 1 - Stress, Strain, and Elastic Moduli</label>
+                  </div>
+                  <span class="duration">10min</span>
+                </div>
+                <a href="./notes/mathschap6.html">
+                  <button class="resources-btn">Resources</button>
+                </a>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-23">Day 2 - Hooke’s Law</label>
+                  </div>
+                  <span class="duration">15min</span>
+                </div>
+                
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-24">Day 3 - Elastic Potential Energy</label>
+                  </div>
+                  <span class="duration">12min</span>
+                </div>
+                
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-25">Day 4 - Applications of Elasticity</label>
+                  </div>
+                  <span class="duration">7min</span>
+                </div>
+                
+              </div>
+              
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-27">Weekly Quiz 6 : Mechanical Properties of Solids</label>
+                  </div>
+                </div>
+                <button class="resources-btn">Take Quiz</button>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-header" data-section="7">
+              <div class="subject-flex">
+                <h3>Section 7: Thermal Properties of Matter</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <p class="section-info"><span class="progress">7/7</span> | 41min</p>
+            </div>
+            <div class="section-content" id="section-7">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-22">Day 1 - Heat and Temperature</label>
+                  </div>
+                  <span class="duration">10min</span>
+                </div>
+                <a href="./notes/mathschap7.html">
+                  <button class="resources-btn">Resources</button>
+                </a>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-23">Day 2 - Thermal Expansion</label>
+                  </div>
+                  <span class="duration">15min</span>
+                </div>
+                
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-24">Day 3 - Specific Heat Capacity and Calorimetry</label>
+                  </div>
+                  <span class="duration">12min</span>
+                </div>
+                
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-25">Day 4 - Heat Transfer (Conduction, Convection, and Radiation)</label>
+                  </div>
+                  <span class="duration">7min</span>
+                </div>
+                
+              </div>
+              
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-27">Weekly Quiz 7 : Thermal Properties of Matter</label>
+                  </div>
+                </div>
+                <button class="resources-btn">Take Quiz</button>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-header" data-section="8">
+              <div class="subject-flex">
+                <h3>Section 8: Sound</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <p class="section-info"><span class="progress">7/7</span> | 41min</p>
+            </div>
+            <div class="section-content" id="section-8">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-22">Day 1 - Production and Propagation of Sound Waves</label>
+                  </div>
+                  <span class="duration">10min</span>
+                </div>
+                <a href="./notes/mathschap8.html">
+                  <button class="resources-btn">Resources</button>
+                </a>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-23">Day 2 - Characteristics of Sound Waves</label>
+                  </div>
+                  <span class="duration">15min</span>
+                </div>
+                
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-24">Day 3 - Doppler Effect</label>
+                  </div>
+                  <span class="duration">12min</span>
+                </div>
+                
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-25">Day 4 - Resonance and Beats</label>
+                  </div>
+                  <span class="duration">7min</span>
+                </div>
+                
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-27">Weekly Quiz 8 : Sound</label>
+                  </div>
+                </div>
+                <button class="resources-btn">Take Quiz</button>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-header" data-section="9">
+              <div class="subject-flex">
+                <h3>Section 9: Optics</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <p class="section-info"><span class="progress">7/7</span> | 41min</p>
+            </div>
+            <div class="section-content" id="section-9">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-22">Day 1 - Reflection and Refraction of Light</label>
+                  </div>
+                  <span class="duration">10min</span>
+                </div>
+                <a href="./notes/mathschap9.html">
+                  <button class="resources-btn">Resources</button>
+                </a>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-23">Day 2 - Lenses and Mirrors</label>
+                  </div>
+                  <span class="duration">15min</span>
+                </div>
+                
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-24">Day 3 - Optical Instruments (Microscope, Telescope)</label>
+                  </div>
+                  <span class="duration">12min</span>
+                </div>
+                
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-25">Day 4 - Wave Optics and Interference</label>
+                  </div>
+                  <span class="duration">7min</span>
+                </div>
+                
+              </div>
+              
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-27">Weekly Quiz 9 : Optics</label>
+                  </div>
+                </div>
+                <button class="resources-btn">Take Quiz</button>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-header" data-section="10">
+              <div class="subject-flex">
+                <h3>Section 10: Electrostatics</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <p class="section-info"><span class="progress">7/7</span> | 41min</p>
+            </div>
+            <div class="section-content" id="section-10">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-22">Day 1 - Coulomb’s Law and Electric Field</label>
+                  </div>
+                  <span class="duration">10min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-23">Day 2 - Electric Potential and Potential Energy</label>
+                  </div>
+                  <span class="duration">15min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-24">Day 3 - Capacitance and Capacitors</label>
+                  </div>
+                  <span class="duration">12min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-25">Day 4 - Gauss’s Law and Its Applications</label>
+                  </div>
+                  <span class="duration">7min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-27">Weekly Quiz 10 : Electrostatics</label>
+                  </div>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-header" data-section="11">
+              <div class="subject-flex">
+                <h3>Section 11: Electric Current Through Conductors</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <p class="section-info"><span class="progress">7/7</span> | 41min</p>
+            </div>
+            <div class="section-content" id="section-11">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-22">Day 1 - Ohm’s Law and Resistance</label>
+                  </div>
+                  <span class="duration">10min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-23">Day 2 - Kirchhoff’s Laws and Circuit Analysis</label>
+                  </div>
+                  <span class="duration">15min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-24">Day 3 - Electrical Power and Heating Effect of Current</label>
+                  </div>
+                  <span class="duration">12min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-25">Day 4 - Combination of Resistors and Cells</label>
+                  </div>
+                  <span class="duration">7min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-27">Weekly Quiz 11 : Electric Current Through Conductors</label>
+                  </div>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-header" data-section="12">
+              <div class="subject-flex">
+                <h3>Section 12: Magnetism</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <p class="section-info"><span class="progress">7/7</span> | 41min</p>
+            </div>
+            <div class="section-content" id="section-12">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-22">Day 1 - Magnetic Field and Magnetic Forces</label>
+                  </div>
+                  <span class="duration">10min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-23">Day 2 - Biot-Savart Law and Ampere’s Law</label>
+                  </div>
+                  <span class="duration">15min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-24">Day 3 - Earth’s Magnetism</label>
+                  </div>
+                  <span class="duration">12min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-25">Day 4 - Electromagnetic Induction</label>
+                  </div>
+                  <span class="duration">7min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-27">Weekly Quiz 12 : Magnetism</label>
+                  </div>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-header" data-section="13">
+              <div class="subject-flex">
+                <h3>Section 13: Electromagnetic Waves and Communication System</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <p class="section-info"><span class="progress">7/7</span> | 41min</p>
+            </div>
+            <div class="section-content" id="section-13">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-22">Day 1 - Electromagnetic Spectrum and Its Properties</label>
+                  </div>
+                  <span class="duration">10min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-23">Day 2 - Propagation of Electromagnetic Waves</label>
+                  </div>
+                  <span class="duration">15min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-24">Day 3 - Communication Systems and Modulation</label>
+                  </div>
+                  <span class="duration">12min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-25">Day 4 - Antennas and Satellite Communication</label>
+                  </div>
+                  <span class="duration">7min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-27">Weekly Quiz 13 : Electromagnetic Waves and Communication System</label>
+                  </div>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-header" data-section="14">
+              <div class="subject-flex">
+                <h3>Section 14: Semiconductors</h3>
+                <i class='bx bx-chevron-down'></i>
+              </div>
+              <p class="section-info"><span class="progress">7/7</span> | 41min</p>
+            </div>
+            <div class="section-content" id="section-14">
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-22">Day 1 - Energy Bands in Solids (Conductors, Semiconductors, and Insulators)</label>
+                  </div>
+                  <span class="duration">10min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-23">Day 2 - p-n Junction and Its Characteristics</label>
+                  </div>
+                  <span class="duration">15min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-24">Day 3 - Semiconductor Devices (Diodes, Transistors)</label>
+                  </div>
+                  <span class="duration">12min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-25">Day 4 - Logic Gates and Digital Electronics</label>
+                  </div>
+                  <span class="duration">7min</span>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+              
+              <div class="lesson">
+                <div class="content-flex">
+                  <div class="blocks">
+                    <!-- From Uiverse.io by 00Kubi --> 
+                    <label class="cyber-checkbox">
+                      <input type="checkbox" />
+                      <span class="cyber-checkbox__mark">
+                        <div class="cyber-checkbox__box">
+                          <svg class="cyber-checkbox__check" viewBox="0 0 12 10">
+                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                          </svg>
+                        </div>
+                        <div class="cyber-checkbox__effects">
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                          <div class="cyber-checkbox__spark"></div>
+                        </div>
+                        <div class="cyber-checkbox__particles">
+                          <div class="particle-1"></div>
+                          <div class="particle-2"></div>
+                          <div class="particle-3"></div>
+                          <div class="particle-4"></div>
+                          <div class="particle-5"></div>
+                          <div class="particle-6"></div>
+                          <div class="particle-7"></div>
+                          <div class="particle-8"></div>
+                        </div>
+                      </span>
+                    </label>
+
+                    <label for="lesson-27">Weekly Quiz 14 : Semiconductors</label>
+                  </div>
+                </div>
+                <button class="resources-btn">Resources</button>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-section about">
+              <h2>vstudy</h2>
+              <p>Your personalized study companion for productivity and efficiency.</p>
+          </div>
+  
+          <div class="footer-section links">
+              <h3>Quick Links</h3>
+              <ul>
+                  <li><a href="#">Dashboard</a></li>
+                  <li><a href="#">Courses</a></li>
+                  <li><a href="#">To-Do List</a></li>
+                  <li><a href="#">Pomodoro Timer</a></li>
+                  <li><a href="#">Study Analytics</a></li>
+                  <li><a href="#">Profile</a></li>
+              </ul>
+          </div>
+  
+          <div class="footer-section contact">
+              <h3>Contact Us</h3>
+              <p>Email: support@vstudy.com</p>
+              <p>Phone: 7970334125</p>
+          </div>
+  
+          <div class="footer-section social">
+              <h3>Follow Us</h3>
+              <div class="social-icons">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+          </div>
+      </div>
+  
+      <div class="footer-bottom">
+          <p>&copy; 2025 VStudy | All Rights Reserved</p>
+      </div>
+  </footer>
+    
+    
+    <script src="mathsmain.js"></script>
+</body>
+</html>
+          
+       
